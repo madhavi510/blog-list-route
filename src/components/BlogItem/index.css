@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.blog-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blog-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.blog-title {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #12022f;
+}
+.blog-date {
+  font-size: 18px;
+  font-family: 'roboto';
+  color: #616e7c;
+}
+.description {
+  font-size: 18px;
+  font-family: 'roboto';
+  color: #616e7c;
+}
